@@ -1,0 +1,130 @@
+.automation {
+  background: var(--background);
+}
+
+.automation-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .automation-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.automation-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.automation-features {
+  list-style: none;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.automation-features li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+.automation-features li span {
+  color: var(--primary);
+  background: rgba(37, 99, 235, 0.1);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+/* Flow Visual */
+.flow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, rgba(248, 250, 252, 0.8), rgba(255, 255, 255, 0.9));
+}
+
+.flow-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  z-index: 2;
+}
+
+.app-icon {
+  width: 80px;
+  height: 80px;
+  background: white;
+  color: white;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.app-icon.blue { background: #2563eb; }
+.app-icon.green { background: #10b981; }
+.app-icon.purple { background: #8b5cf6; }
+
+.flow-arrow {
+  color: var(--text-muted);
+  font-size: 2rem;
+  margin: 0 1rem;
+  animation: pulse arrow 2s infinite;
+}
+
+.central-hub {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: white;
+  border: 4px solid var(--primary);
+}
+
+.hub-core {
+  font-size: 2rem;
+  color: var(--primary);
+  background: transparent;
+}
+
+.hub-ring {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  border: 2px dashed rgba(37, 99, 235, 0.4);
+  animation: spin 10s linear infinite;
+  z-index: 1;
+}
+
+.flow-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
