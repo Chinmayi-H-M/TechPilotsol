@@ -25,6 +25,35 @@
   margin-bottom: 1rem;
 }
 
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 35px !important; 
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--text-main);
+  line-height: 1;
+}
+
+.logo-img {
+  height: 35px !important; /* Decreased to equal font size strictly */
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.logo-text {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-left: -8px !important; /* Pulling text inwards to bypass any transparent pixels on the PNG */
+  line-height: 1;
+}
+
 .footer-desc {
   color: var(--text-muted);
   line-height: 1.6;

@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-content">
         <div className="nav-logo">
-          <span className="logo-icon">▲</span>
+          <img src="https://i.ibb.co/W4KjHRbY/file-0000000030f4720babdb9e67baef60a9.png" alt="TechPilot" className="logo-img" />
           <span className="logo-text">TechPilot</span>
         </div>
 
@@ -31,8 +31,8 @@ const Navbar = () => {
 
         <div className="nav-actions">
           <a href="#quote" className="btn btn-primary d-none-sm">Request a Quote</a>
-          <button 
-            className="hamburger" 
+          <button
+            className="hamburger"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Menu"
           >
