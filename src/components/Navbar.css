@@ -24,15 +24,33 @@
 
 .nav-logo {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 1.5rem;
+  gap: 6px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 35px !important;
   font-weight: 700;
-  color: var(--primary);
+  letter-spacing: -0.5px;
+  color: var(--text-main);
+  line-height: 1;
 }
 
-.logo-icon {
-  font-size: 1.75rem;
+.logo-img {
+  height: 35px !important;
+  /* Decreased to equal font size strictly */
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.logo-text {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-left: -8px !important;
+  /* Pulling text inwards to bypass any transparent pixels on the PNG */
+  line-height: 1;
 }
 
 .nav-links {
@@ -85,7 +103,7 @@
     box-shadow: var(--shadow-md);
     text-align: center;
   }
-  
+
   .nav-links.open {
     display: flex;
   }

@@ -7,14 +7,14 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-brand">
           <div className="nav-logo mb-2">
-            <span className="logo-icon">▲</span>
+            <img src="https://i.ibb.co/W4KjHRbY/file-0000000030f4720babdb9e67baef60a9.png" alt="TechPilot Logo" className="logo-img" />
             <span className="logo-text">TechPilot</span>
           </div>
           <p className="footer-desc">
             Empowering startups with premium design, scalable development, and intelligent automation systems.
           </p>
         </div>
-        
+
         <div className="footer-links">
           <div className="link-group">
             <h4>Services</h4>
@@ -23,7 +23,7 @@ const Footer = () => {
             <a href="#services">Brand Identity</a>
             <a href="#services">Automation</a>
           </div>
-          
+
           <div className="link-group">
             <h4>Company</h4>
             <a href="#home">About Us</a>
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="footer-bottom border-top mt-4">
         <div className="container text-center pt-2 pb-2">
           <p className="text-muted">© {new Date().getFullYear()} TechPilot. All rights reserved.</p>
