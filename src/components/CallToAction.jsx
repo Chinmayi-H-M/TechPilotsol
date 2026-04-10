@@ -12,7 +12,11 @@ const CallToAction = () => {
               Get your premium website or automation system built at an affordable price. Let's discuss your custom requirements today.
             </p>
             <div className="cta-actions">
-              <button className="btn btn-primary cta-btn">Request a Quote</button>
+              <a 
+  href="mailto:hmschinmaye06@gmail.com?subject=New%20Project%20Request&body=Hi%20I%20visited%20your%20website.%20I%20would%20like%20to%20discuss%20a%20project.%20Please%20contact%20me."
+>
+  <button className="cta-btn btn btn-primary">Request a Quote</button>
+</a>
             </div>
             <p className="cta-reassurance">Quick response • Friendly support • Transparent pricing</p>
           </div>
