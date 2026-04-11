@@ -29,7 +29,7 @@ const Services = () => {
     <section className="section bg-light" id="services">
       <div className="container">
         <div className="section-header text-center">
-          <span className="subtitle">What We Offer</span>
+          <span className="subtitle">What We can Offer</span>
           <h2>Our Services</h2>
           <p className="section-desc">
             We provide end-to-end digital solutions that give startups an unfair advantage. From pixel-perfect design to smart automation logic.
