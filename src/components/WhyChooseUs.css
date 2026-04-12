@@ -81,7 +81,7 @@
   box-shadow: var(--shadow-lg);
   position: relative;
   overflow: hidden;
-  animation: float 6s ease-in-out infinite;
+  animation: floatY 6s ease-in-out infinite;
 }
 
 .chart-bars {
@@ -158,4 +158,10 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes floatY {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
 }
