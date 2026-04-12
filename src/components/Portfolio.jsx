@@ -1,30 +1,31 @@
 import React from 'react';
 import './Portfolio.css';
 
+import img1 from '../assets/portfolio/smart_bus_tracker.png';
+import img2 from '../assets/portfolio/business_website.png';
+import img3 from '../assets/portfolio/task_manager.png';
+import img4 from '../assets/portfolio/ecommerce_dashboard.png';
+
 const projects = [
   {
     title: 'Smart Bus Tracker',
     category: 'Web App & Automation',
-    color1: '#2563eb',
-    color2: '#4f46e5'
+    image: img1
   },
   {
     title: 'Business Website',
     category: 'Corporate Design',
-    color1: '#10b981',
-    color2: '#059669'
+    image: img2
   },
   {
     title: 'Task Manager App',
     category: 'SaaS Platform',
-    color1: '#8b5cf6',
-    color2: '#6d28d9'
+    image: img3
   },
   {
     title: 'E-Commerce Dashboard',
     category: 'Analytics & UI',
-    color1: '#f59e0b',
-    color2: '#d97706'
+    image: img4
   }
 ];
 
@@ -45,9 +46,13 @@ const Portfolio = () => {
             <div className="portfolio-card glass-card" key={index}>
               <div 
                 className="portfolio-thumb" 
-                style={{ background: `linear-gradient(135deg, ${project.color1}, ${project.color2})` }}
+                style={{ 
+                  backgroundImage: `url(${project.image})`, 
+                  backgroundSize: 'cover', 
+                  backgroundPosition: 'top left', 
+                  backgroundRepeat: 'no-repeat' 
+                }}
               >
-                <div className="thumb-abstract"></div>
               </div>
               <div className="portfolio-info">
                 <span className="portfolio-category">{project.category}</span>

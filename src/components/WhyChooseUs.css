@@ -100,10 +100,21 @@
   transition: height 1s ease;
 }
 
-.h-30 { height: 30%; }
-.h-50 { height: 50%; }
-.h-80 { height: 80%; }
-.h-100 { height: 100%; }
+.h-30 {
+  height: 30%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.h-100 {
+  height: 100%;
+}
 
 .gradient-bg {
   background: linear-gradient(to top, var(--primary), var(--secondary));
@@ -142,6 +153,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
