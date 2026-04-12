@@ -13,9 +13,11 @@ const CallToAction = () => {
             </p>
             <div className="cta-actions">
               <a 
-  href="mailto:hmschinmaye06@gmail.com?subject=New%20Project%20Request&body=Hi%20I%20visited%20your%20website.%20I%20would%20like%20to%20discuss%20a%20project.%20Please%20contact%20me."
+  href="https://wa.me/919019391873?text=Hi%20I%20came%20from%20your%20website.%20I%20need%20a%20project." 
+  target="_blank" 
+  rel="noopener noreferrer"
 >
-  <button className="cta-btn btn btn-primary">Request a Quote</button>
+  <button className="btn btn-primary d-none-sm">Request a Quote</button>
 </a>
             </div>
             <p className="cta-reassurance">Quick response • Friendly support • Transparent pricing</p>
