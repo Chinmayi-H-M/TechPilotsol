@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-content">
         <div className="nav-logo">
-          <img src="https://res.cloudinary.com/dkguge6rw/image/upload/v1775842861/techpilot-removebg-preview_jbrjqd.png" alt="TechPilot" className="logo-img" />
+          <img src="https://res.cloudinary.com/dkguge6rw/image/upload/v1775988165/ttt-removebg-preview_hqcjit.png" alt="TechPilot" className="logo-img" />
           <span className="logo-text">TechPilot</span>
         </div>
 
@@ -65,12 +65,19 @@ const Navbar = () => {
             </div>
           </button>
           
-          <a href="#quote" className="btn btn-primary d-none-sm">Request a Quote</a>
+          <a 
+  href="https://wa.me/919019391873?text=Hi%20I%20came%20from%20your%20website.%20I%20need%20a%20project." 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <button className="btn btn-primary d-none-sm">Request a Quote</button>
+</a>
           <button
             className="hamburger"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Menu"
           >
+            
             <span></span>
             <span></span>
             <span></span>

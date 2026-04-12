@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-brand">
           <div className="nav-logo mb-2">
-            <img src="https://res.cloudinary.com/dkguge6rw/image/upload/v1775842861/techpilot-removebg-preview_jbrjqd.png" alt="TechPilot Logo" className="logo-img" />
+            <img src="https://res.cloudinary.com/dkguge6rw/image/upload/v1775988165/ttt-removebg-preview_hqcjit.png" alt="TechPilot Logo" className="logo-img" />
             <span className="logo-text">TechPilot</span>
           </div>
           <p className="footer-desc">
