@@ -46,8 +46,8 @@
 }
 
 .logo-text {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 2px 2px;
+  padding: 2px 2px;
   margin-left: -8px !important;
   /* Pulling text inwards to bypass any transparent pixels on the PNG */
   line-height: 1;
