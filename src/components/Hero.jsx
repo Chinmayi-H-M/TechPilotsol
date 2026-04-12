@@ -25,8 +25,20 @@ const Hero = () => {
           </div>
 
           <div className="hero-actions">
-            <button className="btn btn-primary">Start Your Project</button>
-            <button className="btn btn-secondary">Get Free Consultation</button>
+            <a 
+  href="https://wa.me/919019391873?text=Hi%20I%20want%20to%20start%20a%20project.%20Can%20you%20help%20me?" 
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="primary-btn btn btn-primary">Start Your Project</button>
+</a>
+            <a 
+  href="https://wa.me/919019391873?text=Hi%20I%20would%20like%20a%20free%20consultation." 
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="secondary-btn btn btn-secondary">Get Free Consultation</button>
+</a>
           </div>
           <p className="budget-note">Budget-friendly digital solutions designed to scale.</p>
         </div>
