@@ -7,6 +7,7 @@ import Automation from './components/Automation';
 import WhyChooseUs from './components/WhyChooseUs';
 import ReferAndEarn from './components/ReferAndEarn';
 import Portfolio from './components/Portfolio';
+import ClientReviews from './components/ClientReviews';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 
@@ -21,6 +22,7 @@ function App() {
       <WhyChooseUs />
       <ReferAndEarn />
       <Portfolio />
+      <ClientReviews />
       <CallToAction />
       <Footer />
     </>
