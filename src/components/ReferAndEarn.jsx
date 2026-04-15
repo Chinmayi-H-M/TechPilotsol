@@ -38,6 +38,9 @@ const ReferAndEarn = () => {
         <div className="section-header text-center">
           <span className="subtitle">Rewards Program</span>
           <h2>Refer & <span className="text-gradient">Earn</span></h2>
+          <div style={{ margin: '1rem 0' }}>
+            <span className="badge-unavailable"> This program Currently Unavailable</span>
+          </div>
           <p className="section-desc">
             Invite your network to build with TechPilot. They get premium discounts, and you earn cash rewards. It's a win-win.
           </p>
@@ -62,57 +65,57 @@ const ReferAndEarn = () => {
 
           {/* Interactive Mock Dashboard Side */}
           <div className="refer-dashboard-mock">
-             <div className="glass-card mockup-card">
-               <div className="mockup-header">
-                 <h4>Your Referral Dashboard</h4>
-                 <span className="badge-active">Active</span>
-               </div>
-               
-               <div className="mockup-stats">
-                 <div className="m-stat">
-                   <p>Total Earnings</p>
-                   <h3>₹1,200</h3>
-                 </div>
-                 <div className="m-stat">
-                   <p>Referrals</p>
-                   <h3>6</h3>
-                 </div>
-               </div>
+            <div className="glass-card mockup-card">
+              <div className="mockup-header">
+                <h4>Your Referral Dashboard</h4>
+                <span className="badge-active">Active</span>
+              </div>
 
-               <div className="mockup-code-section">
-                  <p>Your unique referral link:</p>
-                  <div className="code-box">
-                    <span>https://techpilot.com/signup?ref=<strong>{referralCode}</strong></span>
-                    <button className={`btn-copy ${copied ? 'copied' : ''}`} onClick={handleCopy}>
-                      {copied ? 'Copied!' : 'Copy Link'}
-                    </button>
+              <div className="mockup-stats">
+                <div className="m-stat">
+                  <p>Total Earnings</p>
+                  <h3>₹1,200</h3>
+                </div>
+                <div className="m-stat">
+                  <p>Referrals</p>
+                  <h3>6</h3>
+                </div>
+              </div>
+
+              <div className="mockup-code-section">
+                <p>Your unique referral link:</p>
+                <div className="code-box">
+                  <span>https://techpilot.com/signup?ref=<strong>{referralCode}</strong></span>
+                  <button className={`btn-copy ${copied ? 'copied' : ''}`} onClick={handleCopy}>
+                    {copied ? 'Copied!' : 'Copy Link'}
+                  </button>
+                </div>
+              </div>
+
+              <div className="mockup-history">
+                <p className="history-title">Recent Activity</p>
+                <div className="history-item">
+                  <div className="h-left">
+                    <div className="h-avatar">S</div>
+                    <div>
+                      <p className="h-name">Sarah Jenkins</p>
+                      <p className="h-date">2 hours ago</p>
+                    </div>
                   </div>
-               </div>
-               
-               <div className="mockup-history">
-                 <p className="history-title">Recent Activity</p>
-                 <div className="history-item">
-                   <div className="h-left">
-                     <div className="h-avatar">S</div>
-                     <div>
-                       <p className="h-name">Sarah Jenkins</p>
-                       <p className="h-date">2 hours ago</p>
-                     </div>
-                   </div>
-                   <div className="h-right text-success">+ ₹200</div>
-                 </div>
-                 <div className="history-item">
-                   <div className="h-left">
-                     <div className="h-avatar bg-pending">M</div>
-                     <div>
-                       <p className="h-name">Mike R.</p>
-                       <p className="h-date">Yesterday</p>
-                     </div>
-                   </div>
-                   <div className="h-right text-warning">Pending</div>
-                 </div>
-               </div>
-             </div>
+                  <div className="h-right text-success">+ ₹200</div>
+                </div>
+                <div className="history-item">
+                  <div className="h-left">
+                    <div className="h-avatar bg-pending">M</div>
+                    <div>
+                      <p className="h-name">Mike R.</p>
+                      <p className="h-date">Yesterday</p>
+                    </div>
+                  </div>
+                  <div className="h-right text-warning">Pending</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
