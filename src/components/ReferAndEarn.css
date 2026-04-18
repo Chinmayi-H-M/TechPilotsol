@@ -247,3 +247,29 @@
   font-weight: 600;
   font-size: 0.85rem;
 }
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .refer-grid {
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .refer-side-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .refer-timeline {
+    gap: 1.5rem;
+  }
+
+  .refer-timeline-step {
+    gap: 1rem;
+  }
+
+  .refer-timeline-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
