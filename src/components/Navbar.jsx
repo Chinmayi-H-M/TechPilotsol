@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-content">
         <div className="nav-logo">
-          <img src="https://res.cloudinary.com/dkguge6rw/image/upload/v1775988165/ttt-removebg-preview_hqcjit.png" alt="TechPilot" className="logo-img" />
+          <img src="https://res.cloudinary.com/dkguge6rw/image/upload/v1775988165/ttt-removebg-preview_hqcjit.png" alt="TechPilot" className="logo-img p-2" />
           <span className="logo-text">TechPilot</span>
         </div>
 
