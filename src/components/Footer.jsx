@@ -30,6 +30,13 @@ const Footer = () => {
             <a href="#portfolio">Our Work</a>
             <a href="#quote">Contact</a>
           </div>
+
+          <div className="link-group">
+            <h4>Connect</h4>
+            <a href="mailto:hello@techpilot.com">Email Us</a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
         </div>
       </div>
 

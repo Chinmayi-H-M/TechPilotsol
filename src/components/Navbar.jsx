@@ -50,6 +50,7 @@ const Navbar = () => {
           <a href="#services" onClick={() => setIsMenuOpen(false)}>Services</a>
           <a href="#how-it-works" onClick={() => setIsMenuOpen(false)}>Process</a>
           <a href="#portfolio" onClick={() => setIsMenuOpen(false)}>Portfolio</a>
+          <a href="#reviews" onClick={() => setIsMenuOpen(false)}>Reviews</a>
           <a href="#why-choose-us" onClick={() => setIsMenuOpen(false)}>Why Us</a>
           <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a>
         </div>
