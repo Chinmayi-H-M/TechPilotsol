@@ -125,7 +125,29 @@
   transform: translateX(24px);
 }
 
+/* Hamburger menu styles */
+.navbar .toggle-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1100; /* Ensure it appears above other elements */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--background);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Mobile-specific styles */
 @media (max-width: 768px) {
+  .navbar .toggle-button {
+    top: 20px; /* Adjust position for smaller screens */
+    right: 20px;
+  }
+
   .nav-links {
     display: none;
     position: absolute;

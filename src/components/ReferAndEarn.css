@@ -283,4 +283,37 @@
     width: 40px;
     height: 40px;
   }
+
+  .mockup-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .mockup-header img {
+    max-width: 120px;
+    margin-bottom: 10px;
+  }
+
+  .mockup-header .toggle-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Ensure it appears above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--background);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .mockup-header .toggle-button {
+      top: 15px; /* Adjust position for smaller screens */
+      right: 15px;
+    }
+  }
 }
